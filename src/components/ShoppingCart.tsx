@@ -9,8 +9,8 @@ const ShoppingCart = () => {
   console.log(cartItems);
   return (
     <Offcanvas show={isOpen} onHide={closeCart} placement="end">
-      <Offcanvas.Header>
-        <Offcanvas.Title>Cart</Offcanvas.Title>
+      <Offcanvas.Header closeButton>
+        <Offcanvas.Title>Shopping Cart</Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
         <Stack gap={3}>
